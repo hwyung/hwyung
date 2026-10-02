@@ -1,8 +1,8 @@
 # Hi, I'm Ivan 👋
 
-I plan products and direct AI models to build them. I'm looking for technical product and program
-management roles where AI is part of the job: planning and organizing development pipelines
-around AI models, and using AI to turn ideas into working prototypes.
+I plan products and direct AI models to build them. I'm looking for roles where using AI well is
+paramount: to raise productivity, sharpen communication, and widen creative options, and to get
+from an idea to a working prototype quickly without giving up quality.
 
 ## Why I built this
 
