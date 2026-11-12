@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="530" viewBox="0 0 880 530" role="img" aria-labelledby="t d">
+<title id="t">Stage 2: planner and local coder</title>
+<desc id="d">Claude, the planner, writes small step files. They sit in the repository as the shared contract. A local model run through Cline picks up one step, runs its check and ticks the box. Claude then audits the real diff. I sit in the middle and start each step. Four things broke along the way.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#57606A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="529" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="30" y="40" font-size="19" font-weight="700" fill="#1F2328">Stage 2 · Planner and local coder, one step at a time</text>
+<text x="30" y="60" font-size="13" fill="#57606A">Left side: work goes out. Right side: results come back.</text>
+
+<rect x="30" y="76" width="820" height="100" rx="10" fill="#F5F4FE" stroke="#AFA9EC"/>
+<text x="46" y="118" font-size="15" font-weight="700" fill="#26215C">Planner</text>
+<text x="46" y="136" font-size="12" fill="#3C3489">Claude, in the cloud</text>
+<rect x="190" y="90" width="300" height="72" rx="8" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="206" y="113" font-size="14" font-weight="700" fill="#26215C">Write the step</text>
+<text x="206" y="133" font-size="12" fill="#3C3489">One small file per step: exact paths,</text>
+<text x="206" y="149" font-size="12" fill="#3C3489">one pass/fail acceptance check</text>
+<rect x="530" y="90" width="300" height="72" rx="8" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="546" y="113" font-size="14" font-weight="700" fill="#26215C">Audit the result</text>
+<text x="546" y="133" font-size="12" fill="#3C3489">Spot-check the real diff and build</text>
+<text x="546" y="149" font-size="12" fill="#3C3489">output, not the model's report</text>
+
+<rect x="30" y="206" width="820" height="64" rx="10" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="46" y="235" font-size="15" font-weight="700" fill="#1F2328">Plan files</text>
+<text x="46" y="253" font-size="12" fill="#57606A">The shared contract</text>
+<rect x="190" y="218" width="640" height="40" rx="8" fill="#FFFFFF" stroke="#8C959F"/>
+<text x="510" y="243" font-size="13" text-anchor="middle" fill="#1F2328">PLAN_NN-MM.md · one step per file · a ticked checkbox means done</text>
+
+<rect x="30" y="300" width="820" height="100" rx="10" fill="#EFFAF5" stroke="#5DCAA5"/>
+<text x="46" y="342" font-size="15" font-weight="700" fill="#04342C">Coder</text>
+<text x="46" y="360" font-size="12" fill="#085041">Local LLM on my Mac</text>
+<rect x="190" y="314" width="300" height="72" rx="8" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="206" y="337" font-size="14" font-weight="700" fill="#04342C">Run the step</text>
+<text x="206" y="357" font-size="12" fill="#085041">Cline and LM Studio load one step</text>
+<text x="206" y="373" font-size="12" fill="#085041">with one reusable prompt</text>
+<rect x="530" y="314" width="300" height="72" rx="8" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="546" y="337" font-size="14" font-weight="700" fill="#04342C">Verify and tick</text>
+<text x="546" y="357" font-size="12" fill="#085041">Runs the acceptance check, ticks the</text>
+<text x="546" y="373" font-size="12" fill="#085041">checkbox, reports PASS or FAIL</text>
+
+<line x1="340" y1="164" x2="340" y2="214" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="340" y1="260" x2="340" y2="308" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="680" y1="308" x2="680" y2="262" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+<line x1="680" y1="212" x2="680" y2="166" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+
+<rect x="30" y="414" width="820" height="32" rx="8" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="440" y="435" font-size="13" text-anchor="middle" fill="#412402"><tspan font-weight="700">Me, in the middle:</tspan> I start each step, read the result, and decide whether to retry, re-plan or move on.</text>
+
+<text x="30" y="472" font-size="13" font-weight="700" fill="#1F2328">What broke along the way</text>
+<rect x="30" y="482" width="195" height="36" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="42" y="497" font-size="12" fill="#1F2328">Small context window:</text>
+<text x="42" y="511" font-size="12" fill="#57606A">hence one-step files</text>
+<rect x="238" y="482" width="195" height="36" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="250" y="497" font-size="12" fill="#1F2328">MLX engine crashed at</text>
+<text x="250" y="511" font-size="12" fill="#57606A">12K to 17K tokens</text>
+<rect x="446" y="482" width="195" height="36" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="458" y="497" font-size="12" fill="#1F2328">Gemma 4 sent every</text>
+<text x="458" y="511" font-size="12" fill="#57606A">tool call twice</text>
+<rect x="654" y="482" width="196" height="36" rx="8" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="666" y="497" font-size="12" fill="#1F2328">Cline created a file despite</text>
+<text x="666" y="511" font-size="12" fill="#57606A">"do not execute"</text>
+</g>
+</svg>

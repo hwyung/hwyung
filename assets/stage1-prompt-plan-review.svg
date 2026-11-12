@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="316" viewBox="0 0 880 316" role="img" aria-labelledby="t d">
+<title id="t">Stage 1: prompt, plan, review</title>
+<desc id="d">Four steps with Google Antigravity: write rules first, give a scoped prompt, review the proposed plan before any code is written, then get a working skeleton. Compiling it for the first time found three real bugs.</desc>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="#57606A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="315" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="30" y="40" font-size="19" font-weight="700" fill="#1F2328">Stage 1 · Antigravity: prompt, plan, review</text>
+<text x="30" y="60" font-size="13" fill="#57606A">The agent proposes; I approve before anything is written</text>
+
+<rect x="30" y="80" width="185" height="82" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="46" y="104" font-size="14" font-weight="700" fill="#26215C">1 · Rules first</text>
+<text x="46" y="125" font-size="12" fill="#3C3489">Three guardrails written</text>
+<text x="46" y="142" font-size="12" fill="#3C3489">down before any prompt</text>
+
+<line x1="217" y1="121" x2="238" y2="121" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+
+<rect x="240" y="80" width="185" height="82" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="256" y="104" font-size="14" font-weight="700" fill="#26215C">2 · Scoped prompt</text>
+<text x="256" y="125" font-size="12" fill="#3C3489">Skeleton only, no features;</text>
+<text x="256" y="142" font-size="12" fill="#3C3489">parallel sub-agents</text>
+
+<line x1="427" y1="121" x2="448" y2="121" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+
+<rect x="450" y="80" width="185" height="82" rx="10" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="466" y="104" font-size="14" font-weight="700" fill="#412402">3 · Plan before code</text>
+<text x="466" y="125" font-size="12" fill="#633806">Agent proposes a design;</text>
+<text x="466" y="142" font-size="12" fill="#633806">I review and approve it</text>
+
+<line x1="637" y1="121" x2="658" y2="121" stroke="#57606A" stroke-width="1.6" marker-end="url(#a)"/>
+
+<rect x="660" y="80" width="190" height="82" rx="10" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="676" y="104" font-size="14" font-weight="700" fill="#26215C">4 · Working skeleton</text>
+<text x="676" y="125" font-size="12" fill="#3C3489">Compose app, Room DB,</text>
+<text x="676" y="142" font-size="12" fill="#3C3489">multilingual search design</text>
+
+<text x="30" y="192" font-size="13" font-weight="700" fill="#1F2328">The three guardrails</text>
+<rect x="30" y="202" width="262" height="30" rx="15" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="161" y="222" font-size="12" text-anchor="middle" fill="#1F2328">Local-first privacy</text>
+<rect x="309" y="202" width="262" height="30" rx="15" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="440" y="222" font-size="12" text-anchor="middle" fill="#1F2328">Google Drive sync only if I opt in</text>
+<rect x="588" y="202" width="262" height="30" rx="15" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="719" y="222" font-size="12" text-anchor="middle" fill="#1F2328">Full Unicode, any-language search</text>
+
+<rect x="30" y="252" width="820" height="40" rx="8" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="46" y="269" font-size="13" font-weight="700" fill="#412402">Then I compiled it for the first time and found 3 real bugs</text>
+<text x="46" y="285" font-size="12" fill="#633806">A method that doesn't exist, a missing resources folder, a missing icons dependency. Fixed before anything shipped.</text>
+</g>
+</svg>

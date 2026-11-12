@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="410" viewBox="0 0 880 410" role="img" aria-labelledby="t d">
+<title id="t">Stage 3: where the factory lives and how I watch it</title>
+<desc id="d">Left: the folders in the project repository that hold the agents, the orchestrator, the job state and the archived results. Right: the GitHub project board with its lanes, and the pull request checks I read to follow progress.</desc>
+<g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="409" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="30" y="40" font-size="19" font-weight="700" fill="#1F2328">Stage 3 · Where the factory lives, and how I watch it</text>
+<text x="30" y="60" font-size="13" fill="#57606A">The agents live in the repo. Their progress shows up on GitHub, where I already work.</text>
+
+<rect x="30" y="80" width="380" height="300" rx="10" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="46" y="106" font-size="14" font-weight="700" fill="#1F2328">Inside the project repo</text>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<text x="46" y="136" font-size="12" font-weight="700" fill="#26215C">.claude/agents/</text>
+<text x="46" y="184" font-size="12" font-weight="700" fill="#26215C">.claude/skills/factory/</text>
+<text x="46" y="232" font-size="12" font-weight="700" fill="#04342C">factory/</text>
+<text x="46" y="280" font-size="12" font-weight="700" fill="#04342C">.worktrees/&lt;job&gt;/</text>
+<text x="46" y="328" font-size="12" font-weight="700" fill="#04342C">docs/factory/jobs/</text>
+</g>
+<text x="46" y="154" font-size="12" fill="#57606A">The six role agents, one file each</text>
+<text x="46" y="202" font-size="12" fill="#57606A">The orchestrator that runs the pipeline</text>
+<text x="46" y="250" font-size="12" fill="#57606A">Config, risk rules, scripts, job state</text>
+<text x="46" y="298" font-size="12" fill="#57606A">Each build in its own isolated copy</text>
+<text x="46" y="346" font-size="12" fill="#57606A">Spec, reviews and decision, archived per job</text>
+
+<rect x="430" y="80" width="420" height="300" rx="10" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="446" y="106" font-size="14" font-weight="700" fill="#1F2328">On GitHub: the project board</text>
+
+<text x="446" y="130" font-size="12" font-weight="700" fill="#57606A">To do</text>
+<rect x="444" y="138" width="92" height="116" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="450" y="146" width="80" height="40" rx="5" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="458" y="163" font-size="12" font-weight="700" fill="#1F2328">Step 15</text>
+<text x="458" y="178" font-size="11" fill="#57606A">Queued</text>
+
+<text x="546" y="130" font-size="12" font-weight="700" fill="#57606A">In progress</text>
+<rect x="544" y="138" width="92" height="116" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="550" y="146" width="80" height="40" rx="5" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="558" y="163" font-size="12" font-weight="700" fill="#04342C">Step 12</text>
+<text x="558" y="178" font-size="11" fill="#085041">In review</text>
+
+<text x="646" y="130" font-size="12" font-weight="700" fill="#993C1D">Needs you</text>
+<rect x="644" y="138" width="92" height="116" rx="6" fill="#FFFFFF" stroke="#993C1D"/>
+<rect x="650" y="146" width="80" height="52" rx="5" fill="#FAECE7" stroke="#993C1D"/>
+<text x="658" y="163" font-size="12" font-weight="700" fill="#4A1B0C">Step 13</text>
+<text x="658" y="178" font-size="11" fill="#712B13">Action: test</text>
+<text x="658" y="191" font-size="11" fill="#712B13">on a device</text>
+
+<text x="746" y="130" font-size="12" font-weight="700" fill="#57606A">Done</text>
+<rect x="744" y="138" width="92" height="116" rx="6" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="750" y="146" width="80" height="40" rx="5" fill="#F6F8FA" stroke="#D0D7DE"/>
+<text x="758" y="163" font-size="12" font-weight="700" fill="#1F2328">Step 11</text>
+<text x="758" y="178" font-size="11" fill="#57606A">Merged</text>
+
+<text x="446" y="276" font-size="12" fill="#57606A">Illustrative cards. They change lanes as the job advances.</text>
+
+<rect x="444" y="292" width="392" height="76" rx="8" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="458" y="312" font-size="13" font-weight="700" fill="#1F2328">On the pull request</text>
+<text x="458" y="331" font-size="12" fill="#57606A">Gate, code review, guardrails review and</text>
+<text x="458" y="346" font-size="12" fill="#57606A">approval appear as checks. Every comment</text>
+<text x="458" y="361" font-size="12" fill="#57606A">is signed "Factory · role" so I know who spoke.</text>
+</g>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="456" viewBox="0 0 880 456" role="img" aria-labelledby="t d">
+<title id="t">Stage 3: when the factory needs me</title>
+<desc id="d">When a job stops, I get a push notification, the project card moves to the Needs you lane with a one-line action, and the pull request gets a label. Five kinds of stop: ready to merge, needs manual test, needs decision, needs answer, and paused for usage.</desc>
+<g font-family="-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="0.5" y="0.5" width="879" height="455" rx="14" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="30" y="40" font-size="19" font-weight="700" fill="#1F2328">Stage 3 · When the factory needs me</text>
+<text x="30" y="60" font-size="13" fill="#57606A">Agents never merge and never guess past a decision. They stop and ask.</text>
+
+<rect x="30" y="80" width="262" height="52" rx="8" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="44" y="101" font-size="13" font-weight="700" fill="#412402">1 · Push notification</text>
+<text x="44" y="120" font-size="12" fill="#633806">Sent the moment a job needs me</text>
+<rect x="309" y="80" width="262" height="52" rx="8" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="323" y="101" font-size="13" font-weight="700" fill="#412402">2 · Board card moves</text>
+<text x="323" y="120" font-size="12" fill="#633806">To "Needs you", with the action</text>
+<rect x="588" y="80" width="262" height="52" rx="8" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="602" y="101" font-size="13" font-weight="700" fill="#412402">3 · PR label and comment</text>
+<text x="602" y="120" font-size="12" fill="#633806">Says what to do and how to reply</text>
+
+<rect x="30" y="152" width="820" height="28" rx="6" fill="#1F2328"/>
+<text x="46" y="170" font-size="12" font-weight="700" fill="#FFFFFF">The factory says</text>
+<text x="226" y="170" font-size="12" font-weight="700" fill="#FFFFFF">What happened</text>
+<text x="556" y="170" font-size="12" font-weight="700" fill="#FFFFFF">What I do</text>
+
+<rect x="30" y="184" width="820" height="48" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="42" y="196" width="150" height="24" rx="12" fill="#E1F5EE" stroke="#0F6E56"/>
+<text x="117" y="212" font-size="12" font-weight="700" text-anchor="middle" fill="#04342C">Ready to merge</text>
+<text x="226" y="204" font-size="12" fill="#1F2328">All reviews passed.</text>
+<text x="226" y="220" font-size="12" fill="#57606A">Nothing to test by hand.</text>
+<text x="556" y="212" font-size="12" fill="#1F2328">Skim the PR and merge it.</text>
+
+<rect x="30" y="232" width="820" height="48" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="42" y="244" width="150" height="24" rx="12" fill="#FAEEDA" stroke="#854F0B"/>
+<text x="117" y="260" font-size="12" font-weight="700" text-anchor="middle" fill="#412402">Needs manual test</text>
+<text x="226" y="252" font-size="12" fill="#1F2328">Checks passed, but a criterion</text>
+<text x="226" y="268" font-size="12" fill="#57606A">needs a real emulator or device.</text>
+<text x="556" y="252" font-size="12" fill="#1F2328">Test it, then merge. The checklist</text>
+<text x="556" y="268" font-size="12" fill="#57606A">is in the PR description.</text>
+
+<rect x="30" y="280" width="820" height="48" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="42" y="292" width="150" height="24" rx="12" fill="#FAECE7" stroke="#993C1D"/>
+<text x="117" y="308" font-size="12" font-weight="700" text-anchor="middle" fill="#4A1B0C">Needs decision</text>
+<text x="226" y="300" font-size="12" fill="#1F2328">Reviewers escalated, or the round</text>
+<text x="226" y="316" font-size="12" fill="#57606A">limit wasn't enough.</text>
+<text x="556" y="300" font-size="12" fill="#1F2328">Tell Claude how to proceed,</text>
+<text x="556" y="316" font-size="12" fill="#57606A">for example "rework".</text>
+
+<rect x="30" y="328" width="820" height="48" fill="#F6F8FA" stroke="#D0D7DE"/>
+<rect x="42" y="340" width="150" height="24" rx="12" fill="#EEEDFE" stroke="#534AB7"/>
+<text x="117" y="356" font-size="12" font-weight="700" text-anchor="middle" fill="#26215C">Needs answer</text>
+<text x="226" y="348" font-size="12" fill="#1F2328">The issue wasn't clear enough</text>
+<text x="226" y="364" font-size="12" fill="#57606A">to plan from.</text>
+<text x="556" y="348" font-size="12" fill="#1F2328">Answer in the issue, then</text>
+<text x="556" y="364" font-size="12" fill="#57606A">resume the job.</text>
+
+<rect x="30" y="376" width="820" height="48" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="42" y="388" width="150" height="24" rx="12" fill="#F6F8FA" stroke="#8C959F"/>
+<text x="117" y="404" font-size="12" font-weight="700" text-anchor="middle" fill="#1F2328">Paused (usage)</text>
+<text x="226" y="396" font-size="12" fill="#1F2328">The weekly usage limit is near.</text>
+<text x="226" y="412" font-size="12" fill="#57606A">The job waits before the next agent.</text>
+<text x="556" y="404" font-size="12" fill="#1F2328">Resume when I'm ready.</text>
+</g>
+</svg>
